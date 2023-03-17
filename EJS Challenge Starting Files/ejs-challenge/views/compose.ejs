@@ -1,0 +1,15 @@
+<%-include("partails/header");-%>
+<h1>Compose</h1>
+<form class="" action="/compose" method="post">
+    <div class="form-group">
+        <label for="exampleInputTitle1">Title</label>
+        <input type="text" class="form-control" name="typetext">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPost1">Post</label>
+        <textarea name="text1" class="form-control" rows="10" cols="200"></textarea>
+    </div>
+        <button type="submit" class="btn btn-primary" name="button">Publish</button>
+</form>
+<%-include("partails/footer");-%>
+
